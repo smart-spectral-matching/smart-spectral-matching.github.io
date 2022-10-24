@@ -27,3 +27,5 @@ gem "tzinfo", "~> 1.2"
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0"
 
+# Theme
+gem "just-the-docs"
