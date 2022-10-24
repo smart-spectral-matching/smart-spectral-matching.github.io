@@ -1,0 +1,10 @@
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+_site/
+Makefile
+Dockerfile
+Gemfile.lock
+.dockerignore
+
