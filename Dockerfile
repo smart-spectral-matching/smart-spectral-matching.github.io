@@ -3,7 +3,7 @@ WORKDIR /srv/jekyll
 COPY Gemfile ./
 RUN bundle install
 STOPSIGNAL SIGQUIT
-CMD ["/usr/local/bundle/bin/bundle", "exec", "/usr/local/bundle/bin/jekyll", "serve", "--livereload", "--incremental"]
+CMD ["/usr/local/bundle/bin/bundle", "exec", "/usr/local/bundle/bin/jekyll", "serve", "--config", "_config_local.yml", "--livereload", "--incremental"]
 
 FROM builder as production
 COPY . .
